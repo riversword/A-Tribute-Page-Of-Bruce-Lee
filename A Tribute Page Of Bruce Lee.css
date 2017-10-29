@@ -1,175 +1,176 @@
 *{
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
+
 .bg1{
-	width:100%;
-	height:auto;
-	background-image: url('https://github.com/riversword/images/raw/master/BruceLee/Bruce_Lee0.jpg');
+  position: relative;
+	width: 100%;
+	height: auto;
+  padding-top: 62%;
+	background-image: url("https://github.com/riversword/images/raw/master/BruceLee/Bruce_Lee0.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-attachment:fixed;
-	/*border:2px rgb(0,255,0) solid;*/
-	padding-top: 62%;
-	position:relative;
+	background-attachment: fixed;
 }
+
 .header1{
 	position: absolute;
-	top:30%;
-	/*margin-top: -100px；*/
+	top: 30%;
 }
-.header1 h1{
-	font-size: 50px;
-}
-.container{
-	/*border:1px rgb(0,0,0) solid;*/
-	width:100%;
-}
+
+.header1 h1{ font-size: 50px; }
+
+.container{ width:100%; }
+
 .summarizesmall p{
-	padding:5% 5%;
+	padding: 5% 5%;
 	line-height: 30px;
 	text-indent: 50px;
-	text-align:justify;
+	text-align: justify;
   box-shadow: 0 0 10px rgb(0,0,0);
 }
+
 .summarizebig p{
+  padding: 5% 8%;
+  line-height: 50px;
 	font-size: 25px;
-	line-height: 50px;
-	padding:5% 8%;
 	text-indent: 50px;
-	text-align:justify;
-	/*border:1px rgb(0,255,0) solid;*/
+	text-align: justify;
 	box-shadow: 0 10px 20px rgb(50,50,50);
 }
-.smoreInfo{
-  /*margin:5% 8%;*/
-}
+
 .smoreInfo hr{
   width: 80%;
   margin-left: 10%;
   border-top: 1px rgb(200,200,200) solid;
 }
+
 .smoreInfo ul li{
   margin-top: 2%;
   margin-bottom: 1%;
-  padding:0 8%;
-  text-align:justify;
+  padding: 0 8%;
+  text-align: justify;
 }
+
 .bmoreInfo{
-	/*padding:8% 10%;*/
-  /*border:1px rgb(200,200,1) solid;*/
   margin-top: 8%;
   margin-bottom: 5%;
-  /*box-shadow: 0 0 20px rgb(0,0,0);*/
 }
+
 .bmoreInfo hr{
   width: 80%;
   margin-left: 10%;
   border-top: 2px rgb(200,200,200) solid;
 }
+
 .bmoreInfo ul li{
   margin-top: 2%;
   margin-bottom: 1%;
-  padding:0 10%;
-	/*margin-top: 15px;*/
+  padding: 0 10%;
 	font-size: 20px;
-	text-align:justify;
+	text-align: justify;
 }
-.row{
-	/*border:1px rgb(255,0,0) solid;*/
-	/*width:100%;*/
-}
+
 .bg2s{
-  width:100%;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
   background-image: url("https://github.com/riversword/images/raw/master/BruceLee/Bruce_Lee01.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   background-position: 0 100%;
-  padding-top: 100%;
-  /*border:2px rgba(200,200,0,1) solid;*/
-  box-shadow: 0 0 10px rgb(0,0,0);
-  position:relative;
+  box-shadow: 0 0 10px rgb(0,0,0); 
 }
+
 .bg2s blockquote{
-  color:rgb(255,255,255);
-  position:absolute;
-  top:30%;
-  left:0;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  color: rgb(255,255,255);
 }
+
 .bg2b{
-  width:100%;
+  position:relative;
+  width: 100%;
+  padding-top: 110%;
   background-image: url("https://github.com/riversword/images/raw/master/BruceLee/Bruce_Lee01.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   background-position: 0 40%;
-  padding-top: 110%;
-  /*border:2px rgba(200,200,0,1) solid;*/
   box-shadow: 0 0 10px rgb(0,0,0);
-  position:relative;
 }
+
 .bg2b blockquote{
+  position: absolute;
+  top: 40%;
+  left: 0;
   font-size: 40px;
-  color:rgb(255,255,255);
-  text-shadow:0 0 1px rgb(0,0,0);
-  position:absolute;
-  top:40%;
-  left:0;
+  color: rgb(255,255,255);
+  text-shadow: 0 0 1px rgb(0,0,0);
 }
+
 .photo0{
-  width:100%;
+  width: 100%;
+  padding-top: 20%;
   background-image: url("https://github.com/riversword/images/raw/master/BruceLee/bruce0.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   background-position: 0 10%;
-  padding-top: 20%;
 }
+
 .photo1{
-  width:80%;
+  width: 80%;
   margin: 0 auto;
+  padding-top: 32%;
   background-image: url("https://github.com/riversword/images/raw/master/BruceLee/bruce1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-top: 32%;
+  
 }
 .photo2{
   width:100%;
+  padding-top: 20%;
   background-image: url("https://github.com/riversword/images/raw/master/BruceLee/bruce2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   background-position: 0 10%;
-  padding-top: 20%;
-  
 }
+
 .film{
-  margin-bottom:10%;
-  padding:1%;
+  margin-bottom: 10%;
+  padding: 1%;
 }
+
 .film .col-xs-6{
-  margin:0 auto;
+  margin: 0 auto;
 }
+
 .film hr{
-  width:80%;
-  border-top: 1px rgb(200,200,200) solid;
+  width: 80%;
   margin-left: 10%;
+  border-top: 1px rgb(200,200,200) solid;
 }
+
 .film img{
-  width:100%;
+  width: 100%;
   margin-bottom: 5%;
-  padding:0;
+  padding: 0;
   box-shadow: 0 0 20px rgb(0,0,0);
 }
+
 .footer{
-  width:100%;
+  width: 100%;
   margin-top: 5%;
   margin-bottom: 2%;
   text-align: center;
   font-family: Georgia,Times ;
-  /*background-color: rgba(7,80,200,0.8);*/
 }
+
 .footer a{
   text-decoration: none;
 }
