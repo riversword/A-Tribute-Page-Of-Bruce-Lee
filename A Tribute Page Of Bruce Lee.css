@@ -32,11 +32,15 @@ html,body, .main{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
+
+  overflow: hidden;
 }
 
-.bg1:before{
+.header1:before{
   content: " ";
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -44,6 +48,8 @@ html,body, .main{
   padding-top: 62%;
   background: url("https://github.com/riversword/images/raw/master/BruceLee/Bruce_Lee0.jpg") no-repeat fixed;
   background-size: 100%;
+
+  z-index: -1;
 }
 
 .header1{
