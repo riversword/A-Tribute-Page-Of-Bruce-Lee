@@ -1,6 +1,6 @@
 ## Tribute to Bruce Lee
 
-该项目，是向我的偶像，李小龙先生致敬的网页。
+谨以此网页，向我的偶像——李小龙先生，致敬。
 
 运用到 Bootstrap 的网格系统布局，以及视差滚动效果。预览 [demo](http://riversword.github.io/A-Tribute-Page-Of-Bruce-Lee/)
 
